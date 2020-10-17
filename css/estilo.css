@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0
+}
+body{
+  font-family: Arial, Helvetica, sans-serif; 
+  background-image: linear-gradient(white,gray);
+  color: #666;
+  font-size: 30px;
+ 
+
+}
+.bodyIndex{
+  
+ background-image: linear-gradient(white,gray);
+  
+}
+#formas_pagamento{ 
+  text-align: center;
+  color:red; font-size: 20px;
+} 
+.menu{
+  background-color:red;
+  padding: 15px;
+  font-size: 25px;
+
+}
+.menu a{
+  color: white;
+  text-decoration: underline ;
+  text-align: center;
+  padding: 20px,10px;
+  margin: 10px 40px 0px 40px;
+}
+.inicio
+{
+  padding: 25px;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 190px;
+  color: rgba(7, 6, 6,0.9);
+}
+.saudacao
+{
+  padding: 25px;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 50px;
+  background-color: rgba(228, 9, 9, 0.541);
+  text-transform: capitalize;
+  text-decoration:none !important
+}
+.saudacao:hover{
+  text-shadow: 
+3px 3px 6px #ccc,
+-6px -6px 3px #333,
+-9px 9px 7px #555,
+12px -12px 7px #444
+}
+
+.preço{ 
+  color:black;
+}
+.precoAnt{
+  color: #412012;
+}
+#rodape{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  }
+  .ass{
+    font: bolder; 
+    font-style:italic;
+    color: black;
+    font-size: 25px;
+  }
+.categorias{ 
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline; 
+  text-decoration-color: black; 
+  display: inline-block;
+  width: 20%;
+  height: 1000px;
+  vertical-align: top;
+  padding: 100px 0px 0px 30px;
+  margin: 0px -30px 0px 0px; 
+ }
+
+ .descriçao{
+  height: 150px;
+}
+
+.prodtitulo{
+  padding: 25px;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.produtos{
+  width: 79%;
+  display: inline-block;
+  margin-top: 2px;
+ }
+
+.produto {
+  display: inline-block;
+  text-align: center;
+  width: 314px;
+  margin: 0px 0px 0px 32px;
+  font-weight: bolder;
+  padding: 0 3px 30px 5px;
+ vertical-align: top;
+
+ }
+ .produto img{
+  background-image: linear-gradient(white,gray);
+ }
+ 
+ .box_de_produtos{
+  display: inline-block;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.box_de_produtos p{
+  width: 320px;
+}
+
+.box_de_produtos img {
+width: 200px;
+
+margin: 0px 20px 20px 20px;
+}
+.endereço{
+  
+  display: inline-block;
+  text-align: center;
+  margin-bottom: -50px;
+  
+}
+                        
+.end {
+  display: inline-block;
+  margin: 50px;
+  font-size: 30px;
+  padding: 100px ;
+  text-align: center;
+ 
+} 
+.lojas{
+  
+  padding: 25px;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+ 
+} 
+.contatos
+{
+  padding: 25px;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+}
+.ctt
+{
+  display: inline-block;
+  margin: 25px 50px 0px 50px;
+}     
+
+.fale
+ {
+  display: inline-block;
+  margin: 10px 50px 0px 50px;
+  font-size: 40px;
+  padding: 50px ;
+ }
+
+.formulario
+{
+  display: inline-block;
+  margin: 80px 100px 50px 50px;
+  font-size: 30px;
+  padding: 50px 100px 50px 100px ;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: black;
+}

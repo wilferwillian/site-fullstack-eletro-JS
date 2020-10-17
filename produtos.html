@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <title> Produtos - Full Stack Eletro</title>
+   <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+<!--  -->
+
+<body>
+   <script src="./Javascript/estilo.js"></script>
+   <!--inicio do menu-->
+
+   <nav class="menu">
+      <a href="index.html"><img width=100px src="./imagens/full_stack_eletro.jpg" alt=""></a>
+      <a href="produtos.html">Nossos Produtos</a>
+      <a href="nossas lojas.html">Nossas Lojas</a>
+      <a href="contato.html">Fale conosco</a>
+   </nav>
+   <!--fim de menu-->
+   <h1 class="prodtitulo">
+      Produtos
+   </h1>
+   <br> <br>
+   <section class="categorias">
+      <h2>
+         Categorias
+      </h2>
+      <br>
+      <ul>
+         <li onclick="retornaTodos()">
+            Todos(12)
+         </li>
+         <li onclick="abrirProduto('geladeira')">
+            Geladeiras(3)
+         </li>
+         <li onclick="abrirProduto('fogão')">
+            Fogões(2)
+         </li>
+         <li onclick="abrirProduto('microondas')">
+            Microondas(3)
+         </li>
+         <li onclick="abrirProduto('lavadora')">
+            Lavadora de roupas(2)
+         </li>
+         <li onclick="abrirProduto('lava-louça')">
+            Lava louças(2)
+         </li>
+      </ul>
+   </section>
+   <div class="produtos">
+      <div  class="box_de_produtos">
+           <div class="produto" id="geladeira"  >
+            <img src="./imagens/geladeira inverse brastemp.jpg" onclick= "amplia(this)" >
+            <br>
+            <p class="descriçao"> Geladeira Brastemp inverse
+            Frost Free Inox de 574 litros</p> <hr>
+            <p class="precoAnt" style="text-decoration: line-through;">6.389,00</p>
+            <br>
+            <h3 style="font-weight: bolder;" class="preço">R$ 5.019,00</h3>
+            <br>
+         </div>
+         
+         <div class="produto" id="geladeira">
+            <img src="./imagens/g_brastemp_branca.jpg" onclick= "amplia(this)" >
+            <br>
+            <p class="descriçao"> Geladeira Brastemp Frost
+            Free branca de 375 litros</p>
+            <hr>
+            <p class="precoAnt" style="text-decoration: line-through;">
+               R$2.068,00
+            </p>
+            <br>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$1.910,00
+            </h3>
+            <br>
+         </div>
+         <div class="produto" id="geladeira">
+            <img src="./imagens/g_ff consul.jpg"onclick= "amplia(this)" >
+            <br>
+            <p class="descriçao"> Geladeira Consul Frost
+            Free Inox 340 litros</p>
+            <hr>
+            <p class="precoAnt" style="text-decoration: line-through;">
+               R$2.199,90
+           </p>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$2.069,00
+            </h3>
+         </div>
+         <div class="produto" id="fogão">
+            <img src="./imagens/fogao_consul_inox.jpg"onclick= "amplia(this)"">
+            <br>
+            <p class="descriçao"> Fogao 4 bocas Consul Inox
+            com mesa de vidro</p>
+            <hr>
+             <p class="precoAnt" style="text-decoration: line-through;">
+               R$1.209,00
+           </p>
+            <br>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$1.129,00
+            </h3>
+            <br>
+         </div>
+      </div>
+      <div class="box_de_produtos">
+         <div class="produto" id="fogão">
+            <img src="./imagens/fogao_monaco.jpg"onclick= "amplia(this)" >
+            <br>
+            <p class="descriçao"> Fogao de 4 bocas Atlas Monaco
+            com acedimento automatico</p>
+            <hr>
+             <p class="precoAnt" style="text-decoration: line-through;">
+               R$609,90
+           </p>
+            <br>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$519,70
+            </h3>
+         </div>
+         <div class="produto" id="microondas">
+            <img src="./imagens/microondas_consul.jpg"onclick= "amplia(this)" >
+            <br>
+            <p class="descriçao"> Forno de Microondas Consul Inox
+            32 litros 220 volts</p>
+            <hr>
+             <p class="precoAnt" style="text-decoration: line-through;">
+               R$580,90
+           </p>
+            <br>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$409,88
+            </h3>
+            <br>
+         </div>
+         <div class="produto" id="microondas">
+            <img src="./imagens/microondas_Philco.jpg"onclick= "amplia(this)" >
+            <br>
+            <p class="descriçao"> Forno de Microondas Philco
+            25 litros Espelhado 220 volts</p>
+            <hr>
+             <p class="precoAnt" style="text-decoration: line-through;">
+               R$459,90
+           </p>
+            <br>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$436,05
+            </h3>
+            <br>
+         </div>
+         <div class="produto" id="microondas">
+            <img src="./imagens/microondas_electrolux.jpg"onclick= "amplia(this)" >
+            <br>
+            <p class="descriçao"> Forno de Microondas Eletrolux
+            Branco de 20 litros 127 volts</p>
+            <hr>
+             <p class="precoAnt" style="text-decoration: line-through;">
+               R$508,70
+           </p><br>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$464,53
+            </h3>
+            <br>
+         </div>
+      </div>
+      <div class="box_de_produtos">
+         <div class="produto" id="lavadora">
+            <img src="./imagens/lavadora_de_roupa_brastemp.jpg"onclick= "amplia(this)" >
+            <br>
+            <p class="descriçao">  Lavadora de roupas Brastemp 11kg
+            Com Turbo Performance Branca</p>
+            <hr>
+             <p class="precoAnt" style="text-decoration: line-through;">
+               R$1.699,00
+           </p>
+            <br>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$1.214,10
+            </h3>
+            <br>
+         </div>
+         <div class="produto" id="lavadora">
+            <img src="./imagens/lavador_de_roupa_Philco.jpg"onclick= "amplia(this)" >
+            <br>
+            <p class="descriçao"> Lavadora de roupas Philco Inverter 12kg</p>
+            <hr>
+             <p class="precoAnt" style="text-decoration: line-through;">
+               R$2.399,90
+           </p>
+            <br>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$2.179,90
+            </h3>
+            <br>
+         </div>
+         <div class="produto" id="lava-louça">
+            <img src="./imagens/lava_louça_electrolux.jpg"onclick= "amplia(this)" >
+            <br>
+            <p class="descriçao">  Lava-louça Eletrolux Inox 10 servicos,
+            6 prog. de lavagem e painel blue touch</p>
+            <hr>
+             <p class="precoAnt" style="text-decoration: line-through;">
+               R$3.599,00
+           </p>
+            <br>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$2.799,90
+            </h3>
+            <br>
+         </div>
+         <div class="produto" id="lava-louça">
+            <img src="./imagens/lava_louça_brastemp.jpg"onclick= "amplia(this)" >
+            <p class="descriçao">  Lava-louca Brastemp Compacta
+            com 8 servicos Branca 127v</p>
+            <hr>
+             <p class="precoAnt" style="text-decoration: line-through;">
+               R$1.970,50
+           </p>
+            <br>
+            <h3 style="font-weight: bolder;" class="preço">
+               R$1.730,61
+            </h3>
+         </div>
+      </div>
+   </div>
+    <script src="./Javascript/estilo.js"></script>
+<footer id="rodape">
+   <h3 id="formas_pagamento">
+      Formas de Pagamento
+   </h3>
+   <img src="./imagens/formas_de_pagamento.png" alt="Formas de Pagamento ">
+   <h3>
+      &copy;Recode Pro
+   </h3>
+   <p class="ass"> Desenvolvido por Willian Ferreira Santos | No curso de HTML/CSS/JS</p>
+</footer>
+</body>
+</html>
